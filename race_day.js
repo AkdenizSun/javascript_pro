@@ -12,3 +12,5 @@ if (runnerAge > 18 && registeredEarly) {
 } else if ( runnerAge < 18) {
     console.log(`Your race number is ${raceNumber} and you will race at 12:30am. `);
 }
+
+walkSignal ? console.log('You may walk!') : console.log('Do not walk!');
